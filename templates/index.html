@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Weds Rose</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Placeholder for your custom Adihaus font link */
+        /* If you have the font file, you would link it here */
+        /* e.g., @font-face { font-family: 'Adihaus'; src: url('path/to/adihaus.woff2') format('woff2'); } */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            /* Set the font-family with a fallback to Inter and a generic sans-serif */
+            font-family: 'Adihaus', 'Inter', sans-serif;
+            background-color: #f3e8ff; /* A light lavender background */
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white rounded-3xl shadow-2xl p-8 max-w-lg w-full">
+        <!-- Couple's Image -->
+        <div class="mb-6 flex justify-center">
+            <img 
+                src="{{ url_for('static', filename='ian&rose.jpg') }}"
+                onerror="this.onerror=null;this.src='https://placehold.co/400x300/e879f9/ffffff?text=Ian+and+Rose';" 
+                alt="Ian and Rose"
+                class="rounded-3xl shadow-lg w-full h-auto object-cover"
+            >
+        </div>
+
+        <!-- The header has been split into two lines for better visual hierarchy -->
+        <h1 class="text-3xl font-bold text-center text-purple-600 mb-2">Ian Weds Rose</h1>
+        <p class="text-xl font-semibold text-center text-gray-600 mb-6">Pledge form</p>
+
+        <!-- The form now submits to the Flask server directly -->
+        <form class="space-y-4" action="/" method="post">
+            <p class="text-center text-gray-600 mb-6">
+                Thank you for being part of our special day. Your gift will help us build our future together.
+            </p>
+            <div>
+                <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500"
+                    placeholder="e.g., John Doe"
+                    required
+                >
+            </div>
+            <div>
+                <label for="contact" class="block text-sm font-medium text-gray-700">Contact Information</label>
+                <input 
+                    type="text" 
+                    id="contact" 
+                    name="contact" 
+                    class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500"
+                    placeholder="e.g., email or phone number"
+                    required
+                >
+            </div>
+            <div>
+                <label for="location" class="block text-sm font-medium text-gray-700">Your Location</label>
+                <input 
+                    type="text" 
+                    id="location" 
+                    name="location" 
+                    class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500"
+                    placeholder="e.g., San Francisco, CA"
+                    required
+                >
+            </div>
+            <div>
+                <label for="amount" class="block text-sm font-medium text-gray-700">Pledge Amount (UGX)</label>
+                <input 
+                    type="number" 
+                    id="amount" 
+                    name="amount" 
+                    class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500"
+                    placeholder="e.g., 50000"
+                    min="0"
+                    required
+                >
+            </div>
+            <div>
+                <label for="message" class="block text-sm font-medium text-gray-700">A Message for the Couple</label>
+                <textarea
+                    id="message" 
+                    name="message" 
+                    rows="3"
+                    class="mt-1 block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-purple-500 focus:border-purple-500"
+                    placeholder="e.g., Congratulations on your big day!"
+                    required
+                ></textarea>
+            </div>
+            <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
+                Submit Gift
+            </button>
+        </form>
+    </div>
+</body>
+</html>

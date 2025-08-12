@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wedding-pledge-project",
+  "private_key_id": "5c9b6f10e7a000c2b0714a24a264cb9b7a0d8845",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCjb7f5D48eCu5\nz62H2yzYunaOj35fvln+GAGj2uNwRgtmoTIzs5gwHKuV5WmOP7euL7G2FnaAbFiT\nSTP9dD/rKEmY/4/G/7M0tKHIL/+b1gALwfTDkDjfkJE6YDqRqxPiXPvpCLzsk7FA\nkwrzX9WlXWoSLpZStNrh7TZu3VnaZk3oSrS5zHIDxRCjmAeh9vpCSueSRZKBOscv\nG0lqaCLu/c1fyMLKLAbHgerntMlvM6r+7XgHdZtuO9QGD5ymjJgowxOve3G3Y2OV\niOM3muM/uU3g/H46fJiWigw8avZfkI3xO2uwYK2oyQr3/ElBsRp3hL1SzwtyuE1V\nyCGvqMg3AgMBAAECggEAAgFbA8zC9XWZoccptzpDmpJFcY+6EjuQiuVtcuZpLLmU\nGYE01sKVoX1SKW/daClw97snHkTaANXdDduVzRl7JS3boFeWAEuXacYo2rrf7BfH\nFVfw8WkVpPxE+vCN+f1k7ZLex9aet+OH0q4RUVPeDF/LnZdcVkrl7Kk4w+jFKdKa\nfxqW/QMhcil11zt7A38W2Gqg5ABQCygPBqlZT5bcm9tKwUTubblnPFt3SFhJ17cf\nY8aECkbi1I55McqDbMl7UHZ8ixm1ajrz48AsjH0vrBcLtyhqNZRKI7E1LrGZb1He\nTUea2xjv7pf82POLT2XURpb+56I4df+NBXt6wLotAQKBgQD5E8KK87Vc1fGuMq3c\nVej4zjQgc0nHX+LXF6w7fOa0Ns6vk88G/X5zX+nGzCocgDhMK4dZZOuTUcLaPLzC\nP2o5brYBSaFaERJhMdZIhOPKVOhOd5bWydI57QtkzLZ5fPLnvaIhNAoNfPgjoyxy\n9msTnFC2uNTDovYibUyL8IABNwKBgQDH9gntqsI1F4BjIEKRQERy9JKWX4W5hPnh\ny+AAHlQRyXcUfRPO4QRghdYND8Q1jcl+stexkVLZhMQbmtHrJ0/PHWs+5RfcLFXj\n/nx8ge1rbgzCsq4W3KzAEQOIlkEKRlybuTlbpw1IPIWCW0up+b2HXFT/uxc8jHw9\nFiY5xBzxAQKBgHO0Ri8ePyW9DOQLDtDH582MnJJme+NuG4YnrQ6FWvZkb2cIlqd8\non0eFQ8QUI+k0IIxxlI0m2p4FLgkdtsVclbzowC+H4IjZBJagFx3vwmCn9eznhJw\n9oOKJjzRDAMrk/srEGG0NudFIlALwN42sk8N0kDPY6bt0MD1XRW0xwHJAoGBAIFW\nPTnDF3bryplTRntZDG0mkKI/CunifxZznmG1PD99Bk70UBmiJgigyMEOD6VsHoaa\n+zTZgLM9UvNgAqONe+vFZZb666H3815TPwXxrDWuqwZMOJqFBh/9YUG5njwdIs1+\n0wDbXpX4v4p/rsM0zEh/imMXCoKZg8qnRvZaSTYBAoGAUivh624K1RdVAt1IN5iz\ne16rp+JmOR3poM5P8aFUIOG5wkxgHtrzu5y+hgANiLgg9QgL/6Hp3ORNdMqORJ8z\nPIqyCkZEkf0/B2619aaIZuL9SXTrOvWB2MFGgPnsx+yMPAQ5pYmIAijW0eK23oWP\nPVuAhPwCgEgKkXEmQuRuxB4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "wedding-pledge-bot@wedding-pledge-project.iam.gserviceaccount.com",
+  "client_id": "113398925385517737148",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wedding-pledge-bot%40wedding-pledge-project.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
